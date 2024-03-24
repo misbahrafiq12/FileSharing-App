@@ -1,0 +1,47 @@
+Node js---- runtime environment h jo server py run hota h (php,flask django)..(dependencies ma pakges install kr sakte hain)
+npm----node k pkges ko manage krta h(pkges install krne ma help krta h)
+nodemon--globally install hota h
+devdependencies --- srf development k time py use kar sakte hain (nodemon)
+pakage lock js---poora dependencies ka tree hota h 
+pakge.json -----ma hmri dependencies hoti hain jo install krte hain(express , angular)
+es6 Module----- extension .mjs  (isme hum import keywords se import krte hain) (export only )
+common Module-----(requird se import krte hain) (module export)
+HTTP----hyper tranfer prtocolo (data ko server/internet py bhejna aur ate hue data ko receivr krwana  )
+HTTPS (Secure---(data jata h server pr becch ma middle man copy milti h lekin encrypt hoti h server py jakr hi decyrpt hoga )
+server ---computer system
+ports ---connect hone k lye jagh mil rhi h (3000 ....)(4 ya 5 digits ka random number)
+v8 engine --(chrome ka engine hoat h jo c++ k codes se bana hua hota h chrome ka ak part h v8 engine h jisk pass takt hoti server banane ki) jo OS(open source) hota h ak bande ne copy kara v8 engine ka code
+nodejs----c ++ k code ko utha kr usk oper wraper laga kr js ka phr hum jo code likhen ge(wo js k wraper k pass jae ga job files hongi wo) wo c++ py convert hojae ga  
+Node js----(runtime environment js for executing  js code)
+npm ----- (npm se install krna pkges)
+post(jb koi form se data mangwate hain chahte hain email or password jo user ka h show nh ho tou use krte hain (jo url ma na dikhe wo post tout khelata h)
+routing(POST ,GET)
+GET ----- agr url ma dikh jae tou
+nodemon --- (node se hi chlata h lekin server py kr k bar bar refresh nh krna parhta h )  (global krte hain hmesha k lye window ma hojata h jb tk window delet nh kreen ge)
+HTTP(se ap server banate hain
+---------------------------
+express (code convert hojata h HTTP ma)(express use krta h HTTP ko jo node ma diya hua h)(pakge ha jo server py available h jiski help se hum server ka code likh sakte hain server ki sari functionality ko used kar sakte hain jo jo node provide krta 
+express used? (node ka HTTP direct used kren ge tou bhtt complex hota h chota code likhn ma bh bhtt difficulties hoti hain bara bara likhna parhta h
+middleware--- (har route se phele chlta h 
+req--- user ka data jo user server ko chlane ki koshish kar rha h (jo request atih uska data)(smne se jo ata h )
+res --- server se kuch bhejna h (poora code jo likho ge res se likho ge humeh kuck bhejna h tou)
+ejs----is html with superpower(calculation...)
+
+post----- jb humeh data database ma push krwana hota h tou
+get----- read krna hota h tou
+putch---- data ko update krwana hota h
+delete ----- data ko delete krwna hota h
+
+
+get ------ when you want to get some data from the server--(jb bh url enter kroge broweser py to browser hmesha get req banata h (get database se read krta h jo bh data ata h client ko send krta h mylb server py show krta h
+
+post----- when you want to send and mutate some data in server (jb bh hmeh server ko data bhejna hota h tou (jese forms, feedback form insb k lye post used krte hain
+
+put---koi bh file server py bhejna put krna jese image
+
+patch ---- ksi cheez ko change krna
+patch --- jese fb py rename krna ho user ko apna name (edit krne k lye)
+delete ---- jese account delete krna h
+
+
+session ------express-session (pkg)

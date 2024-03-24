@@ -1,0 +1,33 @@
+MongoDb ----- database hota h jahan data store hota h ksika bh --(whtasp, instagarm etc)--(jo apps ap banao ge unka data jahan store hota h usko khete hain database
+tow types of database ---(relation ---mysql) ---(non-relational----mongodb)
+mongodb ma data json formate ma hota h mtlb  k documents
+mongodb --(mongodb k jo documents hote hain BSON ma store hote hain
+model(code)------ collection
+schema(code)--------documents (document ka data kese hoga
+client ---- jo bh brower ho jis py hum internet chla sakhen (server se client ma save krwana hoto cookies)
+----cookies
+
+server --- py hota h section (data server py save krna ho tou section)
+BSON ---- binary json  ---data type ko extend krne k lye data type ko banaya gaya--- json se BSON banaya gya
+mongo compass----(apk local server se ksi bh server ko connect krna connect krna)---(apk system se ksi bh server ko connnect krna
+
+
+
+
+------------command-----------
+db shows
+use users
+db
+db.dropDatabase()
+show collections
+db.createCollection("Testing")
+db.testing.drop() 
+
+mongodb atlas ksi bh document ma deploy krne ki zarurt nh h (cloud py chle ga)
+
+
+status code --- 200 (successfull)
+201(create)
+400(filed require)
+500 (server error)
+404(url error)

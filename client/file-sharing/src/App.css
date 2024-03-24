@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* background-image: url('https://i.pinimg.com/originals/16/46/24/1646243661201a0892cc4b1a64fcbacf.jpg'); */
+  background-image: url('https://t3.ftcdn.net/jpg/03/02/04/06/360_F_302040655_IEH9RyDlu7LL8YCLjgL1IskhrpOlmlSv.jpg');
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+flex-direction: column;
+}
+
+h1 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #0056b3;
+  
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.upload {
+  background-color: #0056b3;
+  color:white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+.download{
+  background-color: orange;
+  margin-top: 10px;
+  color:grey;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
